@@ -5,7 +5,11 @@
        <el-form-item label="">
          <el-upload
              class="avatar-uploader"
+<<<<<<< HEAD
              action="http://1.15.171.191:8080/files/upload"
+=======
+             action="http://localhost:9090/files/upload"
+>>>>>>> a6b71490b7c1fe880eb9589f4664de23861e54a6
              :show-file-list="false"
              :on-success="handleAvatarSuccess"
          >

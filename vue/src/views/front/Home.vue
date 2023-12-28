@@ -3,10 +3,15 @@
     <el-row>
       <el-col>
         <el-carousel height="400px">
+<<<<<<< HEAD
           <el-carousel-item v-for="(item, index) in imgs" :key="item">
             <a :href="getLinkForItem(index)" target="_blank">
               <img :src="item" alt="">
             </a>
+=======
+          <el-carousel-item v-for="item in imgs" :key="item">
+            <img :src="item" alt="">
+>>>>>>> a6b71490b7c1fe880eb9589f4664de23861e54a6
           </el-carousel-item>
         </el-carousel>
 
@@ -76,10 +81,13 @@ export default {
         require("@/assets/b1.png"),
         require("@/assets/b3.png")
       ],
+<<<<<<< HEAD
       links: ['https://www.xiaohongshu.com/explore/6502f45e000000001d0169b6',
         'https://www.xiaohongshu.com/explore/64075fa900000000110112b8',
         'https://www.xiaohongshu.com/explore/64075fa900000000110112b8'],
 
+=======
+>>>>>>> a6b71490b7c1fe880eb9589f4664de23861e54a6
       tableDataArea: [],
       tableDataScore: [],
       tableDataHot: [],
@@ -100,11 +108,14 @@ export default {
     this.loadArea(1, this.areas[0])
   },
   methods: {
+<<<<<<< HEAD
 
     getLinkForItem(index) {
       return this.links[index];
     },
 
+=======
+>>>>>>> a6b71490b7c1fe880eb9589f4664de23861e54a6
     loadArea(pageNum, area) {
       this.activeArea = area
       request.get("/movie/page/area", {
