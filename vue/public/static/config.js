@@ -1,3 +1,3 @@
 window.server = {
-    filesUploadUrl: "localhost"
+    filesUploadUrl: "1.15.171.191"
 }

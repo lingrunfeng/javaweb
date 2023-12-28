@@ -1,8 +1,10 @@
 import axios from 'axios'
 import router from "@/router";
 
+const baseUrl = process.env.VUE_APP_BASEURL;
+
 const request = axios.create({
-    baseURL: "/api",
+    baseURL: baseUrl,
     timeout: 5000
 })
 
