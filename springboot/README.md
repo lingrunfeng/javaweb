@@ -4,4 +4,4 @@
 - Vue
 - ElementUI
 - Mysql
-- Mybatis
+- Mybatis-Plus
